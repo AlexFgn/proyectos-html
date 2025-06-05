@@ -1,0 +1,9 @@
+# ignorar carpetas
+prueba/
+
+# ignorar archivos especificos
+token.txt
+
+#ignorar un tipo de arcivos(*.nombre del formato tipo jpg,mp3,etc)
+
+*.log
