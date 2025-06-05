@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- name="viewport" ventana grafica -->
+  <!-- content="width=device-width="indica el ancho de dispositivo (movil 360px)" -->
+  <!-- initial-scale=1.0 = nivel de zoom inicial (100%)   -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listas y tablas</title>
+</head>
+
+<body>
+  <!-- Negrita y cursiva -->
+  <p>En <strong>TechStarup 🚀</strong> &#9996; diseñamos aplicaciones móviles 📱 para <em>mejorar tu día a día 🌞✨</em>
+  </p>
+
+  <!-- Cita en bloque -->
+  <blockquote>
+    <em>
+      <u>"Desde que uso la App de TechStarup, organizar mi semana es mas facil que nunca"</u>
+    </em> - Laura G.
+  </blockquote>
+  <!-- <u> subraya texto </u> -->
+  <u>Texto subrayado</u>
+  <!-- <br>salto de linea -->
+  <br>
+  <!-- <s></s>texto tachado  -->
+  <s>Texto tachado</s>
+
+  <!-- Listas no numeradas -->
+
+  <h2>Funcionalidades clave</h2>
+  <!-- <ul> listas no numeradas</ul> -->
+  <ul>
+    <!-- <li>contenido de cada fila de la lista</li> -->
+    <li>Sincronizacion en la nube en tiempo real</li>
+    <li>Notificaciones personalizadas</li>
+    <li>Interfaz 100% responsive</li>
+    <li>Soporte 24/7</li>
+  </ul>
+
+  <!-- <ol> listas numeradas</ol> -->
+  <h2> Como empezar </h2>
+  <ol>
+    <li>Descarga la aplicacion </li>
+    <li>Registrate con tu correo</li>
+    <li>Configura tus preferencias en el perfil</li>
+    <li>¡Empieza a disfrutar las funciones avanzadas!</li>
+  </ol>
+
+  <!-- Listas anidadas -->
+  <h2>Planes disponibles</h2>
+  <ul>
+    <li>Plan basic
+      <ul>
+        <li>5 Gb de almacenamiento en la nube</li>
+        <li>Soporte por correo electronico</li>
+      </ul>
+    </li>
+
+    <li>Plan Pro
+      <ul>
+        <li>50 GB de almacenamiento en la nube</li>
+        <li>Soporte prioritario</li>
+        <li>Fucnciones de colaboracion en equipo</li>
+      </ul>
+    </li>
+
+    <li>Plan empresarial
+      <ul>
+        <li>Almacenamiento ilimitado</li>
+        <li>Administrador de cuentas dedicadas</li>
+        <li>Integraciones API avanzadas</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- 
+      <tr> = Table row: Una fila
+      <th> = Table Header: Encabezado/ para empezar la columna
+      <td> = Table Data: dato/contenido (que queremos escribir)
+  -->
+  <table style="border: 1px solid black;">
+        <tr>
+            <th>Nombre</th>
+            <th>Puntuaje</th>
+        </tr>
+        <tr>
+          <td>Ana</td>
+          <td>95</td>
+        </tr>
+        <tr>
+          <td>luis</td>
+          <td>88</td>
+        </tr>
+  </table>
+
+  <h2>Comparativa de Planes</h2>
+  <!-- width: 80% es el ancho del contenedor padre / 
+   --- border-collapse: collapse:  los bordes de las celdas se fusionan
+   --- margin: 1em auto: 1 em(El tamaño de la letra al 100% 16px - auto)  -->
+  
+  <table style="width: 80%; border-collapse: collapse;margin: 1em auto;">
+      <tr>
+        <th style="border: 1px solid #ccc; padding: 8px;background-color: #f2f2f2;">Plan</th>
+        <th style="border: 1px solid #ccc; padding: 8px;background-color: #f2f2f2;">Almacenamiento</th>
+        <th style="border: 1px solid #ccc; padding: 8px;background-color: #f2f2f2;">Precio mensual</th>
+      </tr>
+
+      <tr>
+        <!-- padding: 8px : izquierda/ el contenido dentro de la celda no este pegado al borde -->
+        <td style="border: 1px solid aquamarine; padding: 8px;">Basic</td>
+        <td style="border: 1px solid aquamarine; padding: 8px;">5 GB</td>
+        <td style="border: 1px solid aquamarine; padding: 8px;">9.99$</td>
+      </tr>
+      <!-- En este <tr> es para poner el color de fondo</tr> -->
+      <tr style="background-color: rgb(31, 146, 218);">
+       
+        <td style="border: 1px solid aquamarine; padding: 8px;">Pro</td>
+        <td style="border: 1px solid aquamarine; padding: 8px;">50 GB</td>
+        <td style="border: 1px solid aquamarine; padding: 8px;">19.99$</td>
+      </tr>
+
+      <tr>
+       
+        <td style="border: 1px solid aquamarine; padding: 8px;">Premium</td>
+        <td style="border: 1px solid aquamarine; padding: 8px;">ilimitado</td>
+        <td style="border: 1px solid aquamarine; padding: 8px;">Contactar</td>
+      </tr>
+</body>
+
+</html>
